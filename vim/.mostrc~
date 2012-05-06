@@ -1,0 +1,10 @@
+setkey  "up"    "k"
+setkey  "down"  "j"
+
+setkey  "page_up"       "B"
+setkey  "page_up"       "b"
+
+setkey  "page_down"     "F"
+setkey  "page_down"     "f"
+
+#setkey  "search forward"        "/"

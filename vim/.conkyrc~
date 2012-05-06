@@ -1,0 +1,22 @@
+# old colors: title: #22cc22
+# divider: white
+# text: #aaffaa
+draw_shades no
+alignment bottom_left
+gap_x 2
+gap_y 2
+use_xft yes
+double_buffer yes
+
+# green colors: 22cc22 aaffaa white
+# color0: section headers
+#color0 a5bf98
+#color0 black
+# color1: section info
+#color1 dddddd
+# color2: separators
+#color2 aaaaaa
+
+xftfont envy code r:size=10
+TEXT
+${color0}${font :bold:size=5}${exec ratpoison -c "windows" | grep "*" | cut -c 30} ${font}${color2}- ${color0}bat: ${color1}${battery_percent BAT0}% ${color2}- ${color0}cpu: ${color1}$cpu% ${color2}- ${color0}mem: ${color1}$memperc% ${color2}- ${color0}df: ${color1}${fs_free_perc}% ${color2}- ${color0}eth0: ${color1}${addr eth0} ${color2}- ${color0}wlan0: ${color1}${addr wlan0} ${color2}- ${color0}pacu: ${color1}${execi 60 /usr/bin/pacupdate} ${color2}- ${color0}${time %d %b} ${color1}${time %H:%M}
