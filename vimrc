@@ -40,6 +40,11 @@ endif
 " Also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
+" set indentation
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 " Enable line numbers
 set number
 
