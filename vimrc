@@ -47,3 +47,7 @@ set number
 set cul
 " Adjust color
 hi CursorLine term=none cterm=none ctermbg=0
+
+" Status Bar
+set laststatus=2  " always show the status bar
+set statusline=%<%f\ %h%w%m%r%y\ %{&ff}\ %=L:%l/%L\ (%p%%)\ C:%c%V\ B:%o\ F:%{foldlevel('.')} 
