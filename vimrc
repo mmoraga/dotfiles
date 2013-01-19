@@ -7,8 +7,8 @@
 set nocompatible
 
 " Backupdir settings
-set backupdir=/var/tmp/vim-flako//
-set directory=/var/tmp/vim-flako//
+set backupdir=/~/tmp//
+set directory=/~/tmp//
 
 if has("vms")
 set nobackup			" do not keep a backup file, use versions instead
