@@ -7,8 +7,8 @@
 set nocompatible
 
 " Backupdir settings
-set backupdir=/~/tmp//
-set directory=/~/tmp//
+set backupdir=~/tmp/vim//
+set directory=~/tmp/vim//
 
 if has("vms")
 set nobackup			" do not keep a backup file, use versions instead
