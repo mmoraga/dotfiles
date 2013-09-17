@@ -41,6 +41,12 @@ syntax on
 " Also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
+" fix settings for solarized
+set t_Co=16
+set background=dark " dark | light "
+colorscheme solarized
+
+
 " set indentation and tabs
 set tabstop=4
 set shiftwidth=4

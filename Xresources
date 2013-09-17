@@ -11,6 +11,7 @@ URxvt.buffered: true
 URxvt.geometry: 100x25
 !URxvt.transparent: 0
 URxvt.title: Urxvt
+URxvt.intensityStyles: false
 
 !URxvt.colorIT:  #87af5f
 !URxvt.colorBD:  #d7d7d7
@@ -39,8 +40,9 @@ URxvt.urlLauncher:   chromium
 URxvt.underlineURLs: true
 
 !#include "/home/flako/.colours/skwid"
-#include "/home/flako/.colours/gummybears"
+!#include "/home/flako/.colours/gummybears"
 !#include "/home/flako/.colours/zenburn"
+#include "/home/flako/.colours/solarized"
 
 ! Xterm settings
 xterm*toolBar: false
