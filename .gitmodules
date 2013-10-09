@@ -1,0 +1,18 @@
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/neocomplcache.vim"]
+	path = vim/bundle/neocomplcache.vim
+	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "vim/bundle/vim-table-mode"]
+	path = vim/bundle/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule "vim/bundle/snipmate.vim"]
+	path = vim/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git

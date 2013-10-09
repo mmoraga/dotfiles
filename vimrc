@@ -11,16 +11,16 @@ set backupdir=~/tmp/vim/
 set directory=~/tmp/vim/
 
 if has("vms")
-set nobackup			" do not keep a backup file, use versions instead
+set nobackup            " do not keep a backup file, use versions instead
 else
-set backup				" keep a backup file
+set backup              " keep a backup file
 endif
 
-set history=50			" keep 50 lines of command line history
-set ruler				" show the cursor position all the time
-set showcmd 			" display incomplete commands
+set history=50          " keep 50 lines of command line history
+set ruler               " show the cursor position all the time
+set showcmd             " display incomplete commands
 set clipboard+=unnamed  " yank and copy to X clipboard
-set encoding=utf-8		" UTF-8 encoding for all new files
+set encoding=utf-8      " UTF-8 encoding for all new files
 
 " Enable mouse
 if has('mouse')
@@ -29,7 +29,16 @@ endif
 
 " Enable pathogen for plugins and such shenaniganz
 filetype off
-call pathogen#runtime_append_all_bundles()
+"call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+
+" turn on syntastic by default
+let g:syntatic_mode_map = { 'mode':'active',
+        \ 'active_filetypes': [],
+        \ 'passive_filtetypes':[]}
+
+" Use neocomplcache
+let g:neocomplcache_enable_at_startup = 1
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -44,8 +53,11 @@ filetype plugin indent on
 " fix settings for solarized
 set t_Co=16
 set background=dark " dark | light "
+call togglebg#map("<F5>")
 colorscheme solarized
 
+" Toggle NERDTree with F2
+nmap <F2> :NERDTreeToggle<CR>
 
 " set indentation and tabs
 set tabstop=4
