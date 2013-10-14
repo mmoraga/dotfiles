@@ -1,8 +1,4 @@
-#---------------------------------------
-# file: ~/.bashrc
-# author: manuel moraga - mmoraga@kth.se
-#---------------------------------------
-
+# ~/.bashrc
 
 # Check for an interactive session
 [ -z "$PS1" ] && return

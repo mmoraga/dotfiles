@@ -1,7 +1,4 @@
-! -------------------------------------------------
-! file:     ~/.Xresources                           
-! author:   manuel moraga - mmoraga@kth.se    
-! -------------------------------------------------
+! ~/.Xresources
 
 ! Urxvt
 URxvt.buffered: true

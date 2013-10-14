@@ -58,6 +58,13 @@ colorscheme solarized
 
 " Toggle NERDTree with F2
 nmap <F2> :NERDTreeToggle<CR>
+" Toggle gundo with F3
+nnoremap <F3> :GundoToggle<CR>
+
+" Buffers - explore/next/previous: Alt-F12, F12, Shift-F12.
+nnoremap <silent> <M-F12> :BufExplorer<CR>
+nnoremap <silent> <F12> :bn<CR>
+nnoremap <silent> <S-F12> :bp<CR>
 
 " set indentation and tabs
 set tabstop=4
