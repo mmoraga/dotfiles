@@ -13,6 +13,7 @@ fi
 
 export EDITOR="vim"
 export PATH=$PATH:/usr/local/bin/
+export PATH=$PATH:/home/flako/.cabal/bin/
 export PAGER="less"
 
 #PS1='┌─[\e[0;32m\t\e[0m]─[\e[0;36m\u\e[0m\e[0m \e[0;33m\w\e[0m]\n└─>\$ '
