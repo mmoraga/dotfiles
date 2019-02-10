@@ -2,17 +2,9 @@
 
 ! Urxvt
 URxvt.buffered: true
-!URxvt.background: #1A1A1A
-!URxvt.foreground: #999999
-!URxvt.cursorColor: #5E468C
 URxvt.geometry: 100x25
-!URxvt.transparent: 0
 URxvt.title: Urxvt
 URxvt.intensityStyles: false
-
-!URxvt.colorIT:  #87af5f
-!URxvt.colorBD:  #d7d7d7
-!URxvt.colorUL:  #87afd7
 
 ! -- Xft settings --
 Xft.dpi:        96
@@ -22,8 +14,8 @@ Xft.hinting:    true
 Xft.hinstyle:   hintslight
 
 ! -- Fonts -- !
-URxvt.font:xft:envy code r:medium:pixelsize=12
-URxvt.boldFont:xft:envy code r:medium:pixelsize=12
+URxvt.font:xft:source code pro:medium:pixelsize=12
+URxvt.boldFont:xft:source code pro:medium:pixelsize=12
 
 ! borderless and no scrollbar
 URxvt*scrollBar_right: false
@@ -36,10 +28,7 @@ URxvt.keysym.M-u:    perl:url-select:select_next
 URxvt.urlLauncher:   chromium
 URxvt.underlineURLs: true
 
-!#include "/home/flako/.colours/skwid"
-!#include "/home/flako/.colours/gummybears"
-!#include "/home/flako/.colours/zenburn"
-#include "/home/flako/.colours/solarized"
+#include "$USER/.colours/solarized"
 
 ! Xterm settings
 xterm*toolBar: false
@@ -47,5 +36,5 @@ xterm*scrollBar: false
 xterm*rightScrollBar: false
 xterm*background: #1A1A1A
 xterm*foreground: #A9A9A9
-xterm*font:xft:envy code r:medium:pixelsize=10
+xterm*font:xft:source code pro:medium:pixelsize=10
 xterm*geometry: 80x30 
