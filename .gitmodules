@@ -28,12 +28,6 @@
 [submodule "vim/bundle/bufexplorer.zip"]
 	path = vim/bundle/bufexplorer.zip
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "vim/bundle/vimerl"]
-	path = vim/bundle/vimerl
-	url = https://github.com/jimenezrick/vimerl.git
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim/bundle/vim-java-get-set"]
-	path = vim/bundle/vim-java-get-set
-	url = https://github.com/Dinduks/vim-java-get-set.git
