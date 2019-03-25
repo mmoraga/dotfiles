@@ -13,8 +13,10 @@ fi
 export EDITOR="vim"
 export TERMINAL="st"
 export PATH=$PATH:/usr/local/bin/
-export PATH=$PATH:/home/flako/.cabal/bin/
+export JAVA_HOME="/usr/lib/jvm/default"
 export PAGER="less"
+GPG_TTY=$(tty)
+export GPG_TTY
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #PS1='┌─[\e[0;32m\t\e[0m]─[\e[0;36m\u\e[0m\e[0m \e[0;33m\w\e[0m]\n└─>\$ '

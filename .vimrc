@@ -29,10 +29,6 @@ endif
 
 filetype off
 
-" turn on syntastic by default
-let g:syntatic_mode_map = { 'mode':'active',
-        \ 'active_filetypes': [],
-        \ 'passive_filtetypes':[]}
 
 " Use neocomplcache
 let g:neocomplcache_enable_at_startup = 1
